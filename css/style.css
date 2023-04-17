@@ -1,0 +1,329 @@
+*{
+	box-sizing: border-box;
+}
+
+body, h1, ul, p {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url(../img/axali.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: color;
+}
+
+header nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0;
+	margin-right: 12px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	padding: 10px;
+	margin: 0;
+	display: block;
+	color: #0f0665;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+header{
+	background: #00e8ff54;
+
+}
+
+main{
+	color:  white;
+	font-weight: normal;
+}
+
+.main_sect_1 div{
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+
+}
+#sec{
+	margin-top: 72px;
+}
+
+#bold{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 20px;
+
+}
+
+.centr_1 div{
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+/*	height: 100%;*/
+}
+
+
+.centr_1 div div{
+	padding-top: 100px;
+
+}
+
+.centr_1 div div img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.text_size{
+	text-align: center;
+	color: lightseagreen;
+}
+
+
+.centr_1{
+	text-align: center;
+
+}
+
+
+.clear{
+	clear: both;
+}
+
+
+.grid div div img{
+background: #fa8787a1;
+
+}
+
+.grid{
+    width: 100%;
+/*    border: dotted grey;*/
+
+}
+
+.w_50{
+    width: 50%;
+    float: left;
+
+}
+
+
+.h1_1{
+	text-align: center;
+	font-weight: bold;
+	color: #898dd8;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: green;
+}
+
+.grid_child img{
+	height:250px ;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+	object-fit: cover;
+
+}
+
+.grid h2{
+	text-align: center;
+}
+
+.empty{
+	margin: 20px 0;
+	border: solid black;
+	background: lightgray;
+	height: 10px;
+}
+
+.centr_1 h2{
+	height: 70px;
+	overflow: hidden;
+}
+
+.centr_1 p{
+	height: 85px;
+	overflow: hidden;
+}
+
+.grid_2{
+	margin: 100px;
+}
+
+.w_20{
+	width: 20%;
+	float: left;
+}
+
+.grid_child_2 img{
+	width: 100%;
+/*	height: 200px;*/
+	display:block;
+/*	border: dotted 1px;*/
+	object-fit: cover;
+	object-position: top;
+	min-height: 100%;
+}
+
+.image_parent{
+	height: 200px;
+	overflow: hidden;
+}
+
+.grid_child_2{
+	margin: 0 10px;
+}
+
+section div div h2, p {
+	height: 60\px;
+	overflow: hidden;
+}
+
+.text{
+	padding: 15px 20px 30px 20px;
+	border: 1px dashed;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.text a{
+	padding: 10px 30px;
+	background-color: blue;
+	display: inline-block;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.bottom{
+	text-align: center;
+
+}
+
+.w_25{
+	width: 20%;
+	text-align:center;
+	display: inline-block;
+	border: dotted 1px red;
+	background: lightgreen;
+	margin: 20px 30px;
+	height: 250px;
+
+}
+
+.w_25 h2{
+	overflow: hidden;
+	height: 55px;
+	color: black;
+	font-weight: bold;
+}
+
+.pad_10{
+	padding: 0 30px;
+	overflow: hidden;
+	text-align: center;
+	color: black;
+
+
+}
+
+.card{
+	margin: 10px;
+
+}
+
+.more a{
+	padding: 10px 30px;
+	display: inline-block;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	color: blue;
+	background: lightblue;
+}
+
+.more{
+	text-align: center;
+	padding: 0;
+	margin: 10px;
+
+}
+
+
+.child_card{
+	display:block;
+
+}
+
+
+.child_card_1{
+	display:block;
+	border: dotted 1px;
+	background: #08d5b363;
+	margin: 0 auto;
+	width: 30%;
+
+}
+
+
+
+.center_card_1 div{
+	width: 30%;
+	display: inline-block;
+}
+
+.child_card_1 h2{
+	width: 100%;
+	background: #d508089c;
+	margin-top: 0;
+	padding: 20px 0;
+	text-align: center;
+	color: #0e0e10;
+	font-weight: bolder;
+}
+
+.child_card_1 p{
+	padding: 30px 0;
+	color: #0e0e10;
+}
+
+.image_parent span{
+	padding: 10px 30px;
+	background-color:green ;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+/*	top: 15px; */
+/*	right: 15px;*/
+    left: 15px;
+    bottom: 15px;
+/*  width: 100%;*/
+	bottom: ;
+	left: ;
+ border-radius: 10px;
+}
+
+
+
+
+/*.image_parent{
+	position: relative;
+}
+*/
+.grid_child_2{
+	position: relative;
+}
+
+header{
+	position:fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+}

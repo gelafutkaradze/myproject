@@ -1,0 +1,372 @@
+*{
+   box-sizing: border-box;
+}
+
+img{
+   max-width: 100%;
+}
+body,p,h1,h2,h3,ul{
+   margin: 0;
+   padding: 0;
+}
+
+nav{
+   display: flex;
+}
+
+
+header nav ul{
+	display: flex;
+   list-style-type: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+[class*="col-"]{
+
+}
+
+.container{
+	max-width: 1150px;
+}
+
+.header-section{
+   background-color: green;
+}
+
+
+
+.img-img{
+   width: 70px;
+   height: 35px;
+}
+
+.img-div{
+   padding-left: 100px;
+   padding: 5px;
+   padding-left: px;
+}
+
+.btnn{
+   background-color: green;
+   border: green;
+   color: white;
+   align-items: center;
+}
+
+.header-ul{
+   padding: 10px;
+}
+
+.a-teg{
+   padding-left: 10px;
+   padding-right: 10px;
+   color: white;
+}
+
+
+
+
+
+.parent-div{
+   display: flex;
+   margin-top: 40px;
+}
+
+.plato{
+   color: green;
+   font-weight: bolder;
+}
+
+.shop{
+   color: black;
+   font-weight: bolder;
+}
+
+.ge{
+   color: green;
+   font-weight: bolder;
+
+}
+
+.dropdown-show{
+   /*padding: 10px;*/
+}
+
+
+.btnq{
+   color: black;
+}
+
+
+.first-section{
+   display: flex;
+}
+
+
+.flex-div{
+   display: flex;
+   align-items: center;
+   margin-top: 40px;
+
+}
+
+
+.button-div{
+   padding-right: 103px;
+   border-top: 2px solid grey;
+   border-bottom: 2px solid grey;
+   display: flex;
+}
+
+
+
+
+input{
+   border: none;
+}
+
+button{
+   border: none;
+   background-color: green;
+   color: white;
+}
+
+
+.grey-line{
+   width: 2px;
+   height: 15px;
+   color: grey;
+   background-color: grey;
+}
+
+.div-128{
+   border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+    font-weight: bolder;
+    padding: 10px 41px 10px 20px;
+    border-top: 2px solid grey;
+}
+
+.kal{
+   padding: 12px;
+}
+
+
+.parent-div-b{
+   justify-content: flex-end;
+   display: flex;
+   margin-top: 40px;
+}
+
+
+.ul{
+   padding: 10px 10px 10px 0px;
+}
+
+header ul {
+   display: flex;
+   list-style-type: none;
+   justify-content: space-between;
+   color: white;
+}
+
+.a-tegg{
+   color: black;
+}
+
+.active{
+   border-bottom: 2px solid green;
+}
+   
+
+.line-line{
+   position: relative;
+   background-color:#877c7c40;
+   height: 3px;
+}
+
+.grey-col-5{
+   background-color: grey;
+   min-height: 300px;
+}
+
+.grey-col-7{
+   background-color: grey;
+   min-height: 300px;
+}
+
+.second-section{
+   margin-top: 20px;
+}
+
+
+
+.p-div{
+   background-color: #877c7c40;
+   min-height: 170px;
+}
+
+.pp{
+   font-size: 16px;
+}
+
+.strong{
+   font-size: 16px;
+}
+
+
+
+.but-div{
+   display: flex;
+   justify-content: center;
+}
+
+.but{
+   margin-top: 7px;
+   padding-left: 46px;
+   padding-right: 46px;
+   background-color: black;
+   color: white;
+}
+
+.three-section{
+   margin-top: 35px;
+}
+
+
+
+.text-div{
+   padding-top: 10px;
+}
+
+
+.b-section{
+   background-color: #877c7c40;
+   margin-top: 50px;
+}
+
+.time-div{
+   display: flex;
+}
+
+.time-icon{
+   font-size: 60px;
+}
+
+.swrafi{
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   padding: 15px;
+
+}
+
+.dropdown-show {
+    border-top: 2px grey solid;
+    border-bottom: 2px grey solid;
+    border-left: 2px grey solid;
+    padding: 10px;
+}
+
+.inp{
+   padding-right: 120px;
+   padding: 10px;
+}
+
+.fa-solid, .fas {
+    padding: 15px;
+    font-weight: 900;
+}
+
+.d-flex{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+
+.pro{
+   font-weight: bolder;
+   padding-top: 10px;
+   padding-right: 25px;
+   color: green;
+   display: flex;
+}
+
+.sec{
+   padding-left: 25px;
+   padding-top: 20px;
+}
+
+.baka{
+   color: green;
+}
+
+.yvela{
+   
+   color: black;
+   padding-right: 8px;
+}
+
+.g-line{
+   height: 2px;
+   background-color: green;
+   width:70%;
+   position: absolute;
+   transform: translate(142px, 25px);
+}
+
+
+nav{
+
+}
+
+.xili{
+   min-height: 375px;
+}
+
+
+
+
+@media screen and (max-width:1150px){
+   [class*=""]{
+      flex-direction: column;
+}
+
+@media screen and (max-width:800px){
+   [class*="header-ul"]{
+      flex-direction: column;
+}
+
+@media screen and (max-width:800px){
+   [class*="row"]{
+      flex-direction: column;
+}
+
+
+@media screen and (max-width:800px){
+   [class*="ul"]{
+      flex-direction: column;
+}
+
+@media screen and (max-width:800px){
+   [class*="ul"]{
+      flex-direction: column;
+      position: relative;
+      z-index: 999;
+}
+
+
+@media screen and (max-width:800px){
+   [class*="g-line"]{
+      flex-direction: column;
+      
+      z-index:-1;
+      position: absolute;
+}

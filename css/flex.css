@@ -1,0 +1,45 @@
+*{
+   box-sizing: border-box;
+}
+
+.flex_parent{
+	 border:1px solid black;
+	 padding: 5px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 flex-direction: row;
+	 justify-content: space-around;
+	 align-items: center;
+	 /*height: 500px;*/
+	 /*align-content: space-between;*/
+}
+
+.item{
+	 padding: 50px;
+	 color: white;
+	 font-size: 30px;
+	 text-align: center;
+	 background-color: blue;
+	 border: 1px solid white;
+	 width: 20%;
+}
+
+.ml-auto{
+	  margin: 0 auto;
+}
+
+.big_item{
+	 padding: 100px 50px;
+}
+
+.flex-end{
+	 align-self: flex-end;
+}
+
+.order_1{
+	  order: -2;
+}
+
+.order_2{
+	  order: -1;
+}
